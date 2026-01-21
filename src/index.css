@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'GangwonEduPower', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+@keyframes pulse-icon {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+}
+
+.animate-pulse-icon {
+  animation: pulse-icon 2s ease-in-out infinite;
+}
+
+.animate-pulse-icon-delay-1 {
+  animation: pulse-icon 2s ease-in-out infinite;
+  animation-delay: 0.3s;
+}
+
+.animate-pulse-icon-delay-2 {
+  animation: pulse-icon 2s ease-in-out infinite;
+  animation-delay: 0.6s;
+}
