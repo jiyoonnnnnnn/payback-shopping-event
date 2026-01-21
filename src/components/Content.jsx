@@ -1,6 +1,6 @@
-const imgConts = "http://localhost:3845/assets/cfbd307dae354faf973331e1edb38d6ab5512791.svg";
-const imgConts1 = "http://localhost:3845/assets/b30fb91b37df4957078ca55bee65f63be6c124a7.svg";
-const imgConts2 = "http://localhost:3845/assets/a16c7feb6d5a9fa4d84d09a4ba5241a272b7f271.svg";
+const imgConts = "/images/conts.svg";
+const imgConts1 = "/images/conts1.svg";
+const imgConts2 = "/images/conts2.svg";
 
 export default function Content() {
   return (

@@ -1,4 +1,4 @@
-const imgMainImage = "http://localhost:3845/assets/2f7e8fa57c5b5b00a77e3e0ae1fef4afb541b8c2.png";
+const imgMainImage = "/images/main-image.png";
 // 동영상 파일 경로를 여기에 설정하세요
 // public/videos 폴더에 동영상을 넣으면 "/videos/파일명.mp4" 형식으로 사용
 const videoSource = "/videos/background.mp4"; // 동영상 파일명을 변경하세요

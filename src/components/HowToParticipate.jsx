@@ -1,9 +1,9 @@
-const imgOnlineShopping1 = "http://localhost:3845/assets/596e3d41bec2da477b7202d678cf9d5ed5598f35.png";
-const imgFinancialAchievementSuccessTrophy1 = "http://localhost:3845/assets/8e3950092ef59ff5f52bc306eb28f87de3a26234.png";
-const imgRewardGift1 = "http://localhost:3845/assets/8f1840c535ba65c40fe9c58dac566c30aabab6b9.png";
-const imgEllipse6085 = "http://localhost:3845/assets/ec16a4de6cf280f3f73e4932dade68328d5c17db.svg";
-const imgEllipse6087 = "http://localhost:3845/assets/9b13b4209b14c5ec0a8e4148d7eca4d89fd80121.svg";
-const imgLine1 = "http://localhost:3845/assets/5daa3aa2e55d5989f396c8529d2b7d365f472e13.svg";
+const imgOnlineShopping1 = "/images/online-shopping.png";
+const imgFinancialAchievementSuccessTrophy1 = "/images/trophy.png";
+const imgRewardGift1 = "/images/reward-gift.png";
+const imgEllipse6085 = "/images/ellipse-6085.svg";
+const imgEllipse6087 = "/images/ellipse-6087.svg";
+const imgLine1 = "/images/line.svg";
 
 export default function HowToParticipate() {
   return (
@@ -18,8 +18,8 @@ export default function HowToParticipate() {
               <img alt="" className="block max-w-none size-full" src={imgEllipse6085} />
             </div>
             <div className="absolute h-[64px] left-[8px] rounded-[21px] top-[14px] w-[67px]" data-name="online-shopping 1" data-node-id="206:15636">
-              <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[21px]">
-                <img alt="" className="absolute h-[134.38%] left-[-10.45%] max-w-none top-[-20.31%] w-[128.36%]" src={imgOnlineShopping1} />
+              <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[21px] flex items-center justify-center">
+                <img alt="" className="max-h-full max-w-full object-contain" src={imgOnlineShopping1} />
               </div>
             </div>
           </div>
@@ -46,8 +46,8 @@ export default function HowToParticipate() {
             <div className="absolute left-0 size-[90px] top-0" data-node-id="206:15644">
               <img alt="" className="block max-w-none size-full" src={imgEllipse6085} />
             </div>
-            <div className="absolute left-[5px] rounded-[40px] size-[80px] top-[6px]" data-name="financial-achievement-success-trophy 1" data-node-id="206:15645">
-              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[40px] size-full" src={imgFinancialAchievementSuccessTrophy1} />
+            <div className="absolute left-[5px] rounded-[40px] size-[80px] top-[6px] flex items-center justify-center overflow-hidden" data-name="financial-achievement-success-trophy 1" data-node-id="206:15645">
+              <img alt="" className="max-h-full max-w-full object-contain pointer-events-none rounded-[40px]" src={imgFinancialAchievementSuccessTrophy1} />
             </div>
           </div>
           <div className="flex flex-col gap-[12px] items-start not-italic relative shrink-0 w-[125px]" data-name="text" data-node-id="206:15646">
@@ -73,8 +73,8 @@ export default function HowToParticipate() {
             <div className="absolute left-0 size-[90px] top-0" data-node-id="206:15653">
               <img alt="" className="block max-w-none size-full" src={imgEllipse6087} />
             </div>
-            <div className="absolute left-[5px] rounded-[40px] size-[80px] top-[5px]" data-name="reward-gift 1" data-node-id="206:15654">
-              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[40px] size-full" src={imgRewardGift1} />
+            <div className="absolute left-[5px] rounded-[40px] size-[80px] top-[5px] flex items-center justify-center overflow-hidden" data-name="reward-gift 1" data-node-id="206:15654">
+              <img alt="" className="max-h-full max-w-full object-contain pointer-events-none rounded-[40px]" src={imgRewardGift1} />
             </div>
           </div>
           <div className="flex flex-col gap-[12px] items-start not-italic relative shrink-0 w-[146px]" data-name="text" data-node-id="206:15655">

@@ -86,8 +86,30 @@ npm run build
 # dist 폴더의 내용을 웹 서버에 업로드
 ```
 
+## 이미지 설정
+
+**중요**: 이미지가 정상적으로 표시되려면 이미지 파일을 다운로드해야 합니다.
+
+자세한 내용은 [IMAGE_SETUP.md](./IMAGE_SETUP.md) 파일을 참고하세요.
+
+### 빠른 설정
+
+1. `public/images/` 폴더에 다음 이미지 파일들을 저장하세요:
+   - `main-image.png`
+   - `online-shopping.png`
+   - `trophy.png`
+   - `reward-gift.png`
+   - `ellipse-6085.svg`
+   - `ellipse-6087.svg`
+   - `line.svg`
+   - `conts.svg`
+   - `conts1.svg`
+   - `conts2.svg`
+
+2. 이미지는 Figma에서 Export하거나 개발 서버 실행 시 브라우저에서 다운로드할 수 있습니다.
+
 ## 주의사항
 
 - 동영상 파일은 `public/videos/` 폴더에 넣어야 합니다
-- 이미지 파일은 Figma에서 제공하는 localhost 서버를 사용 중입니다
-- 실제 배포 시 이미지와 동영상 파일을 적절한 CDN이나 서버에 업로드해야 합니다
+- 이미지 파일은 `public/images/` 폴더에 저장되어야 합니다
+- GitHub에 업로드하기 전에 모든 이미지 파일을 다운로드해야 합니다
